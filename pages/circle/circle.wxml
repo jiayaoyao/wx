@@ -1,0 +1,12 @@
+<view class="container">
+
+    <scroll-view scroll-y="true" class="circle">
+
+        <view class="post">
+            <text class="">你发送的一个帖子</text>
+            <text class="">3</text>
+        </view>
+
+    </scroll-view>
+
+</view>

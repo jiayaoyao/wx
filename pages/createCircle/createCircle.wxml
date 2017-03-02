@@ -1,0 +1,8 @@
+
+<!--index.wxml-->
+<view class="container">
+  <view class='item' wx:for="{{circles}}" bindtap="default" hover-stay-time="60" hover-class="itemhover">
+   <text class='title'>{{item}}</text>
+   <text class='memo'>fsdfsdfsdff</text>
+  </view>
+</view>

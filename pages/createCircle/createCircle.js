@@ -1,20 +1,17 @@
 //index.js
 //获取应用实例
-var app = getApp()
+var app = getApp();
+wx.setNavigationBarTitle({
+  title: '创建圈子'
+})
 Page({
   data: {
-    motto: 'Hello World',
-    userInfo: {}
+    circles: ['交友圈','相亲圈','二手交易圈','枪支圈','同性恋圈','资料圈']
   },
   //事件处理函数
   bindViewTap: function() {
     wx.navigateTo({
       url: '../logs/logs'
-    })
-  },
-  gotoCircle: function() {
-    wx.navigateTo({
-      url: '../circle/circle'
     })
   },
   onLoad: function () {

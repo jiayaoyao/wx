@@ -1,10 +1,36 @@
 <!--index.wxml-->
 <view class="container">
+
   <view  bindtap="bindViewTap" class="userinfo">
     <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
     <text class="userinfo-nickname">{{userInfo.nickName}}</text>
   </view>
-  <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
+  <view class="add-circle">
+    <button bindtap="addCircle">+</button>
   </view>
+  <scroll-view scroll-y="true" class="circles">
+      <view class="circle" bindtap="gotoCircle">
+        <text class="circle-title">我的圈子</text>
+        <text class="circle-tag">3</text>
+      </view>
+      <view class="circle">
+        <text class="circle-title">我的圈子</text>
+      </view>
+      <view class="circle">
+        <text class="circle-title">我的圈子</text>
+      </view>
+      <view class="circle">
+        <text class="circle-title">我的圈子</text>
+      </view>
+      <view class="circle">
+        <text class="circle-title">我的圈子</text>
+      </view>
+      <view class="circle">
+        <text class="circle-title">我的圈子</text>
+      </view>
+      <view class="circle">
+        <text class="circle-title">我的圈子</text>
+      </view>
+  </scroll-view>
+
 </view>

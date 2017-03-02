@@ -1,8 +1,18 @@
 /**index.wxss**/
-.userinfo {
+.container {
+  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-between;
+  padding: 100rpx 0;
+  box-sizing: border-box;
+} 
+
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  height: 300rpx;
 }
 
 .userinfo-avatar {
@@ -16,6 +26,40 @@
   color: #aaa;
 }
 
-.usermotto {
-  margin-top: 200px;
+.add-circle{
+  width: 750rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 50rpx 0 50rpx;
+}
+.btn-add-circle{
+  width:50rpx;
+  float: right;
+}
+.circles {
+  height: 500rpx;
+  width: 750rpx;
+  padding: 0 50rpx 0 50rpx;
+  box-sizing: border-box;
+}
+.circle{
+  height: 100rpx;
+  width:600rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5rpx 20rpx 5rpx 20rpx;
+  background-color: beige;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+.circle-title{
+  color: black;
+  margin-left: 20px;
+}
+.circle-tag{
+  color: red;
+  margin-right: 10px;
 }
