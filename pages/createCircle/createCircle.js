@@ -2,7 +2,7 @@
 //获取应用实例
 var app = getApp();
 wx.setNavigationBarTitle({
-  title: '创建圈子ff'
+  title: '创建圈子ffjj'
 })
 Page({
   data: {
