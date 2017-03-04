@@ -17,7 +17,7 @@ Page({
       url: '../circle/circle'
     })
   },
-  gotoCreateCircle:function(){
+  createCircle:function(){
     wx.navigateTo({
       url: '../createCircle/createCircle'
     })
