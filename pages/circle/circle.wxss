@@ -1,12 +1,5 @@
 /* pages/circle/circle.wxss */
-.container {
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-  box-sizing: border-box;
-}
+
 .circle {
   height: 100%;
   display: flex;
@@ -20,4 +13,13 @@
     border-radius:5px;
     padding:10rpx 10rpx 10rpx 10rpx;
     box-sizing: border-box;
+}
+.post .post-title{
+
+}
+.post .post-describe{
+  
+}
+.post .post-img{
+  
 }

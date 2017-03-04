@@ -1,12 +1,44 @@
-<view class="container">
 
     <scroll-view scroll-y="true" class="circle">
 
+        <view class="post" bindtap="gotoPost">
+            <view class="post-title">
+                <text class="">你发送的一个帖子</text>
+                <text class="">3</text>
+            </view>
+            <view class="post-describe">
+                <text class="">帖子的简单描述</text>
+            </view>
+            <view class="post-img">
+                <image src="http://img2.3lian.com/2014/c7/12/d/77.jpg"></image>
+            </view>
+        </view>
+
         <view class="post">
-            <text class="">你发送的一个帖子</text>
-            <text class="">3</text>
+            <view class="post-title">
+                <text class="">你发送的一个帖子</text>
+                <text class="">3</text>
+            </view>
+            <view class="post-describe">
+                <text class="">帖子的简单描述</text>
+            </view>
+            <view class="post-img">
+                <image src="http://img2.3lian.com/2014/c7/12/d/77.jpg"></image>
+            </view>
+        </view>
+
+
+        <view class="post">
+            <view class="post-title">
+                <text class="">你发送的一个帖子</text>
+                <text class="">3</text>
+            </view>
+            <view class="post-describe">
+                <text class="">帖子的简单描述</text>
+            </view>
+            <view class="post-img">
+                <image src="http://img2.3lian.com/2014/c7/12/d/77.jpg"></image>
+            </view>
         </view>
 
     </scroll-view>
-
-</view>
