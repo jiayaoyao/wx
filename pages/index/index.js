@@ -19,7 +19,7 @@ Page({
   },
   gotoCreateCircle:function(){
     wx.navigateTo({
-      url: '../createCircle/createCircle'
+      url: '../createCircle/circleList'
     })
   },
   onLoad: function () {

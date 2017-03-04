@@ -3,8 +3,8 @@
     "pages/index/index",
     "pages/logs/logs",
     "pages/createCircle/createCircle",
-    "pages/circle/circle"
-    
+    "pages/circle/circle",
+    "pages/circleList/circleList"
   ],
   "window":{
     "backgroundTextStyle":"light",

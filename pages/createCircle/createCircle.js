@@ -12,6 +12,10 @@ Page({
       url: '../logs/logs'
     })
   },
+  //创建选择的圈子
+  create:function(){
+    
+  },
   onLoad: function () {
     console.log('onLoad')
     wx.setNavigationBarTitle({
