@@ -24,7 +24,9 @@ Page({
   },
   onLoad: function () {
     console.log('onLoad')
-
+    wx.setNavigationBarTitle({
+      title: '圈子'
+    })
     var that = this
     //调用应用实例的方法获取全局数据
     app.getUserInfo(function(userInfo){
