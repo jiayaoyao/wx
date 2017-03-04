@@ -1,8 +1,2 @@
-
-<!--index.wxml-->
-<view class="container">
-  <view class='item' bindtap="create" wx:for="{{circles}}" hover-stay-time="60" hover-class="itemhover">
-   <text class='title'>{{item}}</text>
-   <text class='memo'>fsdfsdfsdff</text>
-  </view>
-</view>
+<!--pages/circleList/circleList.wxml-->
+<text>pages/circleList/circleList.wxml</text>
