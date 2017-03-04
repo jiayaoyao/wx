@@ -1,9 +1,7 @@
 //index.js
 //获取应用实例
 var app = getApp();
-wx.setNavigationBarTitle({
-  title: '创建圈子'
-})
+
 Page({
   data: {
     circles: ['交友圈','相亲圈','二手交易圈','枪支圈','同性恋圈','资料圈']
@@ -16,6 +14,9 @@ Page({
   },
   onLoad: function () {
     console.log('onLoad')
+    wx.setNavigationBarTitle({
+      title: '创建圈子'
+    })
     var that = this
     //调用应用实例的方法获取全局数据
     app.getUserInfo(function(userInfo){
