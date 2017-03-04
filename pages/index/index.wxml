@@ -6,7 +6,7 @@
     <text class="userinfo-nickname">{{userInfo.nickName}}</text>
   </view>
   <view class="add-circle">
-    <button bindtap="addCircle">+</button>
+    <button bindtap="addCircle" bindtap="gotoCreateCircle" >+</button>
   </view>
   <scroll-view scroll-y="true" class="circles">
       <view class="circle" bindtap="gotoCircle">
