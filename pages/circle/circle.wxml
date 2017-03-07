@@ -1,6 +1,13 @@
 
     <scroll-view scroll-y="true" class="circle">
-
+        <view class="create-post-bar">
+            <view class="create-post">
+                <text class="" bindtap="createPost">+发帖</text>
+            </view>
+            <view class="user-post">
+                <text class="">头像</text>
+            </view>
+        </view>
         <view class="post" bindtap="gotoPost">
             <view class="post-title">
                 <text class="">你发送的一个帖子</text>

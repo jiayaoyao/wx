@@ -1,2 +1,37 @@
 <!--pages/posting/posting.wxml-->
-<text>pages/posting/posting.wxml</text>
+<view class="container">
+    <view class="title">
+        <input placeholder="请输入标题" auto-focus/>
+    </view>
+
+    <view class="line"></view>
+
+    <scroll-view class="content-box">
+        <text>这里编辑内容</text>
+        <text>这里编辑内容</text>
+        <text>这里编辑内容</text>
+        <text>这里编辑内容</text>
+        <text>这里编辑内容</text>
+        <text>这里编辑内容</text>
+        <text>这里编辑内容</text>
+        <text>这里编辑内容</text>
+        <text>这里编辑内容</text>
+        <text>这里编辑内容</text>
+        <text>这里编辑内容</text>
+        <text>这里编辑内容</text>
+        <text>这里编辑内容</text>
+        <text>这里编辑内容</text>
+        <text>这里编辑内容</text>
+        <text>这里编辑内容</text>
+        <text>这里编辑内容</text>
+        <text>这里编辑内容</text>
+        <text>这里编辑内容</text>
+        <text>这里编辑内容</text>
+        <text>这里编辑内容</text>
+        <text>这里编辑内容</text>
+        <text>这里编辑内容</text>
+        <text>这里编辑内容</text>
+    </scroll-view>
+
+    <view class="toorbar"></view>
+</view>

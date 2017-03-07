@@ -1,1 +1,24 @@
 /* pages/posting/posting.wxss */
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-between;
+    box-sizing: border-box;
+    border: 1px solid;
+}
+.title {
+    border: 1px solid;
+}
+.line {
+    height: 2px;
+    background-color: gray;
+}
+.content-box {
+    border: 1px solid;
+    height: 800rpx;
+}
+.toolbar {
+    border: 1px solid;
+    margin-bottom: 5px;
+}

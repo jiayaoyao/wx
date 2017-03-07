@@ -20,9 +20,14 @@ Page({
   onUnload:function(){
     // 页面关闭
   },
+  createPost:function() {
+    wx.navigateTo({
+      url: '../posting/posting'
+    })
+  },
   gotoPost: function() {
     wx.navigateTo({
-      url: '../circle/circle'
+      url: '../post/post'
     })
   }
 })
